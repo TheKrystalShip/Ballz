@@ -28,6 +28,10 @@ target_link_libraries(ballz toaster ${SDL2_LIBRARIES} ${OPENGL_LIBRARIES} ${GLEW
 
 install(TARGETS ballz RUNTIME DESTINATION bin)
 
+add_custom_command(TARGET ballz POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_LIST_DIR}/assets $<TARGET_FILE_DIR:${PROJECT_NAME}>/assets
+)
+
 include(CTest)
 enable_testing()
 
