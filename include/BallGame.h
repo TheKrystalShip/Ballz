@@ -4,13 +4,13 @@
 #include "BallRenderer.h"
 #include "Grid.h"
 
-#include "Camera2D.h"
-#include "GLSLProgram.h"
-#include "InputManager.h"
-#include "SpriteBatch.h"
-#include "SpriteFont.h"
-#include "Timing.h"
-#include "Window.h"
+#include <Toaster/Camera2D.h>
+#include <Toaster/GLSLProgram.h>
+#include <Toaster/InputManager.h>
+#include <Toaster/SpriteBatch.h>
+#include <Toaster/SpriteFont.h>
+#include <Toaster/Timing.h>
+#include <Toaster/Window.h>
 
 #include <memory>
 

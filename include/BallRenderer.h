@@ -1,8 +1,9 @@
 #pragma once
 
 #include "Ball.h"
-#include "GLSLProgram.h"
-#include "SpriteBatch.h"
+
+#include <Toaster/GLSLProgram.h>
+#include <Toaster/SpriteBatch.h>
 
 #include <memory>
 #include <vector>

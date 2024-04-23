@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Vertex.h"
+#include <Toaster/Vertex.h>
 
 #include <GLM/glm.hpp>
 

@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS // To shut up the compiler about sprintf...
 #include "BallGame.h"
 
-#include "ResourceManager.h"
-#include "Toaster.h"
+#include <Toaster/ResourceManager.h>
+#include <Toaster/Toaster.h>
 
 #include <SDL2/SDL.h>
 
